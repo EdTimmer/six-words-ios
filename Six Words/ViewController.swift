@@ -15,9 +15,12 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var middleImage: UIImageView!
     
+    @IBOutlet weak var controlBar: UISegmentedControl!
+
+    
     var index = 0
     let numbers = ["", "1", "2", "3", "4", "5", "6"]
-    var isShort = true
+    var isShort = false
     let messagesLong = ["",
                     "Let go of what has passed",
                     "Let go of what may come",
@@ -40,16 +43,26 @@ class ViewController: UIViewController {
         mainLabel.numberOfLines = 6
         mainLabel.text = ""
         numberLabel.text = numbers[index]
+        
+        controlBar.setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.white.withAlphaComponent(0.5)], for: UIControl.State.normal)
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+    }
+        
+    override open var shouldAutorotate: Bool {
+        return false
     }
 
-    @IBAction func segmControl(_ sender: UISegmentedControl) {
+    @IBAction func segmentedControl(_ sender: UISegmentedControl) {
         if sender.selectedSegmentIndex == 0 {
-            isShort = true
-            mainLabel.text = messagesShort[index]
-        }
-        else if sender.selectedSegmentIndex == 1 {
             isShort = false
             mainLabel.text = messagesLong[index]
+        }
+        else if sender.selectedSegmentIndex == 1 {
+            isShort = true
+            mainLabel.text = messagesShort[index]
         }
     }
     
@@ -73,6 +86,5 @@ class ViewController: UIViewController {
             middleImage.isHidden = false
         }
     }
-    
 }
 

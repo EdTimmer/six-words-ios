@@ -15,19 +15,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Mountains" translatesAutoresizingMaskIntoConstraints="NO" id="OyI-MR-Cxb">
-                                <rect key="frame" x="-12" y="0.0" width="426" height="896"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Mountains" translatesAutoresizingMaskIntoConstraints="NO" id="OyI-MR-Cxb">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="N" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="toD-zt-z76">
-                                <rect key="frame" x="193" y="506" width="28" height="68"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="20"/>
-                                <color key="textColor" red="0.99589592220000001" green="0.9851598144" blue="0.92940276860000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eRo-XQ-N2t">
-                                <rect key="frame" x="47" y="272" width="321" height="149"/>
+                                <rect key="frame" x="49" y="281" width="316" height="149"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <color key="textColor" red="0.99589592220000001" green="0.9851598144" blue="0.92940276860000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -40,43 +32,58 @@
                                 <color key="textColor" red="0.29477316139999998" green="0.33476418260000002" blue="0.46276187899999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lotus-gold" translatesAutoresizingMaskIntoConstraints="NO" id="gcn-2Q-kq9">
-                                <rect key="frame" x="37" y="227" width="331" height="297"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <segmentedControl opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="cN0-8i-qYY">
-                                <rect key="frame" x="90" y="798" width="223.00000000000006" height="32.000000000000057"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.29477316139999998" green="0.33476418260000002" blue="0.46276187899999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <segments>
-                                    <segment title="Short" width="115"/>
-                                    <segment title="Long"/>
-                                </segments>
-                                <color key="selectedSegmentTintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <connections>
-                                    <action selector="segmControl:" destination="BYZ-38-t0r" eventType="valueChanged" id="KzG-oI-njv"/>
-                                </connections>
-                            </segmentedControl>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Mn-uM-UYa">
-                                <rect key="frame" x="100" y="670" width="203" height="62"/>
+                                <rect key="frame" x="139" y="671" width="136" height="62"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="NEXT">
                                     <backgroundConfiguration key="background">
-                                        <color key="backgroundColor" red="0.13785719869999999" green="0.092557676140000003" blue="0.27452680470000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.15771600599999999" green="0.19284346699999999" blue="0.3372718394" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </backgroundConfiguration>
                                     <fontDescription key="titleFontDescription" type="system" pointSize="23"/>
-                                    <color key="baseForegroundColor" red="0.99589592220000001" green="0.9851598144" blue="0.92940276860000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <directionalEdgeInsets key="contentInsets" top="0.0" leading="0.0" bottom="0.0" trailing="0.0"/>
+                                    <color key="baseForegroundColor" red="0.99589592220000001" green="0.9851598144" blue="0.92940276860000004" alpha="0.75217716643457322" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="nextButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EqT-vE-8vU"/>
                                 </connections>
                             </button>
+                            <segmentedControl opaque="NO" contentMode="center" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="cN0-8i-qYY">
+                                <rect key="frame" x="123" y="791" width="169" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.29477316139999998" green="0.33476418260000002" blue="0.46276187899999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <segments>
+                                    <segment title="Long" width="83"/>
+                                    <segment title="Short"/>
+                                </segments>
+                                <color key="selectedSegmentTintColor" red="0.15771600599999999" green="0.19284346699999999" blue="0.3372718394" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <connections>
+                                    <action selector="segmentedControl:" destination="BYZ-38-t0r" eventType="valueChanged" id="Kse-VA-88U"/>
+                                </connections>
+                            </segmentedControl>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lotus-gold" translatesAutoresizingMaskIntoConstraints="NO" id="gcn-2Q-kq9">
+                                <rect key="frame" x="49" y="281" width="315" height="203"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="N" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="toD-zt-z76">
+                                <rect key="frame" x="193" y="209" width="26.5" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <color key="textColor" red="0.15771600599999999" green="0.19284346699999999" blue="0.3372718394" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.39634433390000001" green="0.39459541440000001" blue="0.47844260929999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="OyI-MR-Cxb" secondAttribute="bottom" id="48f-nv-32S"/>
+                            <constraint firstItem="OyI-MR-Cxb" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="BPU-Ab-cbq"/>
+                            <constraint firstItem="OyI-MR-Cxb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Wgf-HJ-yli"/>
+                            <constraint firstItem="OyI-MR-Cxb" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Ydp-aF-YVB"/>
+                        </constraints>
                     </view>
                     <connections>
+                        <outlet property="controlBar" destination="cN0-8i-qYY" id="1Fh-Cd-zjc"/>
                         <outlet property="mainLabel" destination="eRo-XQ-N2t" id="LFy-Mh-kFu"/>
                         <outlet property="middleImage" destination="gcn-2Q-kq9" id="gqf-9a-wpW"/>
                         <outlet property="numberLabel" destination="toD-zt-z76" id="D4Q-T2-W2o"/>
